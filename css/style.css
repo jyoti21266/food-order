@@ -1,0 +1,541 @@
+/* 
+    Author: Vijay Thapa;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.update{
+    padding: 2%;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.update:hover{
+    color:white;
+}
+.cat{
+    background-color: rgb(233, 230, 233);
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text{
+    color:black;
+    font-size: larger;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #e619d4;
+    text-decoration: none;
+}
+a:hover{
+    color: #bb08ac;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #e619d4;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #bb08ac;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.float-container{
+    position:relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 8%;
+    float: left;
+}
+.menu{
+    line-height: 30px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 4%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/back4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 21% 0;
+    z-index: 2;
+    position: relative;
+}
+.food-search-menu{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+}
+.food-cart{
+    background-image: url(../images/cart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+}
+
+.food-search-menu input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 2.5%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+.on{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    top:100px;
+    left: 350px;
+}
+.head{
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+.main-text{
+    color: white;
+    font-size: 70px;
+    padding:3%;
+    margin-bottom: 50px;
+    font-weight:bolder;
+}
+.main-text1{
+    color:rgb(250, 11, 250);
+    font-size: 50px;
+    padding:3%;
+    margin-bottom: 50px;
+    font-weight:bolder;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index:1;
+}
+.main-btn{
+    padding:2.5%;
+    background-color: rgba(250, 11, 250, 0.6);
+    color:white;
+    border:none;
+    border-radius: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.main-btn:hover{
+    
+    background-color: rgba(14, 13, 13, 0.3);
+    color:rgba(250, 11, 250);
+    transition: 0.7s;
+    
+}
+.tbl{
+    margin-left: 30rem;
+    margin-top: 5rem;
+    border:1px solid black;
+    box-shadow: 5px 10px 18px #888888;
+    height:30%;
+}
+.td1{
+    width:20rem;
+    height:2.5rem;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+figcaption{
+    border:1px solid rgb(172, 166, 166);
+    border-radius:10px;
+}
+.box-3{
+    width:28%;
+    float: right;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ece5ec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(250, 241, 249);
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.success{
+    padding:2%;
+    margin: 10px 10px 10px 10px;
+    color: limegreen;
+    font-size: larger;
+    text-align: center;
+}
+.failure{
+    padding:2% 1% 2% 1%;
+    margin: 10px 10px 10px 10px;
+    color: rgb(245, 24, 8);
+    font-size: larger;
+    text-align: center;
+}
+
+/*css for shopping cart*/
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+table th{
+    border-bottom: 1px solid black;
+    background-color: #64676d; 
+    color:white;
+    padding: 20px 40px 20px 40px;
+}
+table td{
+    padding-top: 3%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+input[type=number]{
+    width: 40px;
+    margin-bottom: 5px;
+}
+.del{
+    border: none;
+    padding:8%;
+    background-color: rgb(247, 12, 59);
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.del:hover{
+    background-color: white;
+    transition: 0.2s;
+}
+.order{
+    border: none;
+    padding:2.5%;
+    background-color: rgb(12, 247, 32);
+    color:white;
+    margin-top: 50px;
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.first{
+    margin-top: 50px;
+}
+.total{
+    margin-top: 20px;
+}
+.second{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: #666769; 
+    height:200px;
+    width: 300px;
+    color: white;
+}
+/* css for order page */
+.side{
+    background-color: white;
+    width:100%;
+}
+.text-center{
+    text-align: center;
+}
+.user{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+input[type=text]{
+    padding: 0.3%;
+    border-radius: 1rem;
+    width:30%;
+    font-size: 18px;
+    text-align: center;
+    border:none;
+}
+input[type=text]:focus{
+    background-color: rgb(217, 235, 247);
+}
+input[type=email]{
+    padding: 0.3%;
+    border-radius: 1rem;
+    width:30%;
+    font-size: 18px;
+    text-align: center;
+    border:none;
+}
+input[type=email]:focus{
+    background-color: rgb(217, 235, 247);
+}
+input[type=tel]{
+    padding: 0.3%;
+    border-radius: 1rem;
+    width:30%;
+    font-size: 18px;
+    text-align: center;
+    border:none;
+}
+input[type=tel]:focus{
+    background-color: rgb(217, 235, 247);
+}
+input[type=textarea]{
+    padding: 0.3%;
+    border-radius: 1rem;
+    width:30%;
+    font-size: 18px;
+    text-align: center;
+    border:none;
+}
+input[type=textarea]:focus{
+    background-color: rgb(217, 235, 247);
+}
+input[type=date]{
+    padding: 0.3%;
+    border-radius: 1rem;
+    width:30%;
+    
+    border:none;
+}
+input[type=date]:focus{
+    background-color: rgb(217, 235, 247);
+}
+.pay{
+    padding:1.5%;
+    color:white;
+    background-color: rgb(245, 11, 245);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/*CSS for quantity */
+.pack{
+    display:flex;
+    margin-left: 40px;
+}
+.increase{
+    padding: 3% 5% 3% 5%;
+    margin-right: 5px;    
+}
+.decrease{
+    padding: 3% 6% 3% 6%;
+    margin-left: 10px;   
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
